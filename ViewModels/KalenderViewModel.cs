@@ -20,11 +20,7 @@ public partial class KalenderViewModel: ObservableObject
 
     public KalenderViewModel(Database database)
     {
-        Task.Run(async() =>
-        {
             _database = database;
-            await LoadData();
-        });
     }
 
     // Ved tryk af dato

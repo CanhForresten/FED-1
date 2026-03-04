@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bilvaerksted")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5169d0b9879f70ef84f4ff9a89c77b12e9f10132")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+513ff7334e16db2499072d40bb8651c51b071345")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bilvaerksted")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bilvaerksted")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

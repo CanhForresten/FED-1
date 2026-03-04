@@ -27,6 +27,9 @@ public static class MauiProgram
 		builder.Services.AddTransient<Views.BookView>();
 		builder.Services.AddTransient<Views.KalenderView>();
 
+		builder.Services.AddTransient<BookViewModel>();
+		builder.Services.AddTransient<KalenderViewModel>();
+
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
