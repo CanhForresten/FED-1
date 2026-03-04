@@ -9,7 +9,7 @@ namespace Bilvaerksted.ViewModels;
 
 public partial class KalenderViewModel: ObservableObject
 {
-    private Database? _database; 
+    public Database _database; 
     private List<Job> _allJobs = new List<Job>();
 
     [ObservableProperty]
@@ -18,11 +18,11 @@ public partial class KalenderViewModel: ObservableObject
     [ObservableProperty]
     private ObservableCollection<Job> _selectedDateJobs = new();
 
-    public KalenderViewModel()
+    public KalenderViewModel(Database database)
     {
         Task.Run(async() =>
         {
-            _database = new Database();
+            _database = database;
             await LoadData();
         });
     }

@@ -30,9 +30,9 @@ public partial class BookViewModel : ObservableObject
     [ObservableProperty]
     private string task;
 
-    public BookViewModel()
+    public BookViewModel(Database database)
     {
-        database_ = new Database();
+        database_ = database;
     }
 
     [RelayCommand]
@@ -51,6 +51,7 @@ public partial class BookViewModel : ObservableObject
         var inserted = await database_.AddJob(job_);
         if (inserted != 0)
         {
+            JobId = job_.JobId;
             CustommerName = string.Empty;
             CustommerAdress = string.Empty;
             Make = string.Empty;
