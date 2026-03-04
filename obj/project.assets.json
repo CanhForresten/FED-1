@@ -11536,11 +11536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/miyagi/Documents/GitLabs/FED/assignment-1/Bilvaerksted.csproj",
+      "projectUniqueName": "/Users/miyagi/Documents/GitHub/FED 1/Bilvaerksted.csproj",
       "projectName": "Bilvaerksted",
-      "projectPath": "/Users/miyagi/Documents/GitLabs/FED/assignment-1/Bilvaerksted.csproj",
+      "projectPath": "/Users/miyagi/Documents/GitHub/FED 1/Bilvaerksted.csproj",
       "packagesPath": "/Users/miyagi/.nuget/packages/",
-      "outputPath": "/Users/miyagi/Documents/GitLabs/FED/assignment-1/obj/",
+      "outputPath": "/Users/miyagi/Documents/GitHub/FED 1/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

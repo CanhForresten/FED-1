@@ -8,9 +8,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>Bilvaerksted.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/miyagi/Documents/GitLabs/FED/assignment-1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/miyagi/Documents/GitHub/FED 1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/mtouch-symbols.list</SymbolFile>
       <DSymName>Bilvaerksted.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/miyagi/Documents/GitLabs/FED/assignment-1</SourceProjectPath>
+      <SourceProjectPath>/Users/miyagi/Documents/GitHub/FED 1</SourceProjectPath>
       <IsXPCService></IsXPCService>
     </_PostProcessingItem>
   </ItemGroup>

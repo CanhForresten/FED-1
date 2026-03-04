@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UYskdcxuKkY=",
+  "dgSpecHash": "vQ4KAufuDtc=",
   "success": true,
-  "projectFilePath": "/Users/miyagi/Documents/GitLabs/FED/assignment-1/Bilvaerksted.csproj",
+  "projectFilePath": "/Users/miyagi/Documents/GitHub/FED 1/Bilvaerksted.csproj",
   "expectedPackageFiles": [
     "/Users/miyagi/.nuget/packages/communitytoolkit.maui/14.0.1/communitytoolkit.maui.14.0.1.nupkg.sha512",
     "/Users/miyagi/.nuget/packages/communitytoolkit.maui.core/14.0.1/communitytoolkit.maui.core.14.0.1.nupkg.sha512",

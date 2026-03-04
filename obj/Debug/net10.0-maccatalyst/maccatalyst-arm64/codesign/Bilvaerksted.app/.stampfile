@@ -1,1 +1,1 @@
--v --force --timestamp=none --sign - --entitlements /Users/miyagi/Documents/GitLabs/FED/assignment-1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/miyagi/Documents/GitLabs/FED/assignment-1/bin/Debug/net10.0-maccatalyst/maccatalyst-arm64/Bilvaerksted.app
+-v --force --timestamp=none --sign - --entitlements /Users/miyagi/Documents/GitHub/FED 1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/miyagi/Documents/GitHub/FED 1/bin/Debug/net10.0-maccatalyst/maccatalyst-arm64/Bilvaerksted.app

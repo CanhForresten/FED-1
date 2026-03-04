@@ -3,10 +3,10 @@ namespace Bilvaerksted.Views;
 
 public partial class BookView : ContentPage
 {
-    public BookView()
+    public BookView(BookViewModel viewModel)
     {
         InitializeComponent();
-        BindingContext = new BookViewModel();
+        BindingContext = viewModel;
     }
 
 }

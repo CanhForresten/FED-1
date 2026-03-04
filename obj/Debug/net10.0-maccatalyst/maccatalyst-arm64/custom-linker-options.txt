@@ -5,7 +5,7 @@ AreAnyAssembliesTrimmed=false
 				AOTOutputDirectory=obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/nativelibraries/aot-output/
 				DedupAssembly=
 				AppBundleManifestPath=bin/Debug/net10.0-maccatalyst/maccatalyst-arm64/Bilvaerksted.app/Contents/Info.plist
-				CacheDirectory=/Users/miyagi/Documents/GitLabs/FED/assignment-1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/linker-cache
+				CacheDirectory=/Users/miyagi/Documents/GitHub/FED 1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/linker-cache
 				
 				Debug=true
 				DeploymentTarget=15.0
@@ -188,7 +188,7 @@ FrameworkAssembly=System.Private.CoreLib
 				IntermediateLinkDir=obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/linked/
 				InvariantGlobalization=false
 				HybridGlobalization=true
-				ItemsDirectory=/Users/miyagi/Documents/GitLabs/FED/assignment-1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/linker-items
+				ItemsDirectory=/Users/miyagi/Documents/GitHub/FED 1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/linker-items
 				IsAppExtension=false
 				IsSimulatorBuild=False
 				LibMonoLinkMode=static

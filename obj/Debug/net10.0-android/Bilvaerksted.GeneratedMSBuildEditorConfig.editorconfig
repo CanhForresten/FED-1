@@ -26,13 +26,13 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bilvaerksted
-build_property.ProjectDir = /Users/miyagi/Documents/GitLabs/FED/assignment-1/
+build_property.ProjectDir = /Users/miyagi/Documents/GitHub/FED 1/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/App.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -42,7 +42,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/AppShell.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -52,7 +52,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/MainPage.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
@@ -62,7 +62,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Resources/Styles/Colors.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
@@ -72,7 +72,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Resources/Styles/Styles.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
@@ -82,7 +82,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Styles/ButtonStyle.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Styles/ButtonStyle.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Styles.ButtonStyle.xaml
 build_metadata.AdditionalFiles.TargetPath = Styles/ButtonStyle.xaml
@@ -92,7 +92,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Styles/DatePicker.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Styles/DatePicker.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Styles.DatePicker.xaml
 build_metadata.AdditionalFiles.TargetPath = Styles/DatePicker.xaml
@@ -102,7 +102,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Styles/EntryStyles.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Styles/EntryStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Styles.EntryStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Styles/EntryStyles.xaml
@@ -112,7 +112,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Styles/FrameStyles.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Styles/FrameStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Styles.FrameStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Styles/FrameStyles.xaml
@@ -122,7 +122,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Styles/LabelStyle.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Styles/LabelStyle.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Styles.LabelStyle.xaml
 build_metadata.AdditionalFiles.TargetPath = Styles/LabelStyle.xaml
@@ -132,7 +132,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Views/BookView.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Views/BookView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Views.BookView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/BookView.xaml
@@ -142,7 +142,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Views/CreateInvoiceView.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Views/CreateInvoiceView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Views.CreateInvoiceView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/CreateInvoiceView.xaml
@@ -152,7 +152,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Views/KalenderView.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Views/KalenderView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Views.KalenderView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/KalenderView.xaml
@@ -162,7 +162,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/Users/miyagi/Documents/GitLabs/FED/assignment-1/Views/ShowInvoiceView.xaml]
+[/Users/miyagi/Documents/GitHub/FED 1/Views/ShowInvoiceView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bilvaerksted.Views.ShowInvoiceView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/ShowInvoiceView.xaml

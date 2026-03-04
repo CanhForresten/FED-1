@@ -12,17 +12,20 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-			.UseMauiCommunityToolkit() 
+			.UseMauiCommunityToolkit()
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-			builder.Services.AddSingleton<Database>();
+		builder.Services.AddSingleton<Database>();
 
-			builder.Services.AddSingleton<CreateInvoiceViewModel>();
-			builder.Services.AddSingleton<ShowInvoiceViewModel>();
+		builder.Services.AddSingleton<CreateInvoiceViewModel>();
+		builder.Services.AddSingleton<ShowInvoiceViewModel>();
+
+		builder.Services.AddTransient<Views.BookView>();
+		builder.Services.AddTransient<Views.KalenderView>();
 
 #if DEBUG
 		builder.Logging.AddDebug();

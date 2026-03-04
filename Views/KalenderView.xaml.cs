@@ -5,10 +5,10 @@ namespace Bilvaerksted.Views;
 
 public partial class KalenderView : ContentPage
 {
-    public KalenderView()
+    public KalenderView(KalenderViewModel viewModel)
     {
         InitializeComponent();
-        BindingContext = new KalenderViewModel();
+        BindingContext = viewModel;
     }
 
         protected override async void OnAppearing()
