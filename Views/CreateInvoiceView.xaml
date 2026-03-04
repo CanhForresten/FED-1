@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Bilvaerksted.Views.OpretFakturaView">
+
+    <VerticalStackLayout Padding="40"
+        Spacing="10">
+
+        <Label Text="Opret faktura"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            FontSize="30"
+            Style="{StaticResource labelStyle}"/>
+
+        <Entry Placeholder="Ordre id" 
+            Text="{Binding JobId}"
+            Style="{StaticResource EntryStyle}"/>
+
+        <Entry Placeholder="Mekaniker navn" 
+            Text="{Binding MechanicName}"
+            Style="{StaticResource EntryStyle}"/>
+
+        <Entry Placeholder="Material navn" 
+            Text="{Binding MaterialName}"
+            Style="{StaticResource EntryStyle}"/>
+
+        <Entry Placeholder="Pris" 
+            Text="{Binding MaterialPrice}"
+            Style="{StaticResource EntryStyle}"/>
+
+        <Button Text="Tilføj materiale"
+            Command="{Binding AddMaterialCommand}"
+            Style="{StaticResource ButtonStyle}"/>
+
+
+        <CollectionView ItemsSource="{Binding Materials}"
+                        WidthRequest="300"
+                        HorizontalOptions="Center">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <HorizontalStackLayout Spacing="30">
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding Price, StringFormat='{}{0:C}'}"/>
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            <!-- Til visning af materialer der er tilføjet !-->
+        </CollectionView>
+
+        <Entry Placeholder="Timer" 
+            Text="{Binding Hours}"
+            Style="{StaticResource EntryStyle}"/>
+
+        <Entry Placeholder="Time pris" 
+            Text="{Binding HourPrice}"
+            Style="{StaticResource EntryStyle}"/>
+
+        <Button Text="Tilføj Faktura" 
+            Command="{Binding AddInvoiceCommand}"
+            Style="{StaticResource ButtonStyle}"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>

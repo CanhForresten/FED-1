@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Plugin.Maui.Calendar.Controls;assembly=Plugin.Maui.Calendar"
+             xmlns:viewmodels="clr-namespace:Bilvaerksted.ViewModels"
+             x:Class="Bilvaerksted.Views.KalenderView"
+             Title="Kalender">
+
+    <ContentPage.BindingContext>
+        <viewmodels:KalenderViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid RowDefinitions="Auto, *" Padding="10">
+        
+        <!-- Her binder vi KUN til SelectedDate -->
+        <controls:Calendar Grid.Row="0" 
+                           SelectedDate="{Binding SelectedDate}"
+                           VerticalOptions="Start" />
+
+
+        <CollectionView Grid.Row="1" 
+                        ItemsSource="{Binding SelectedDateJobs}"
+                        Margin="0,20,0,0">
+            
+            <CollectionView.EmptyView>
+                <Label Text="Ingen opgaver denne dag" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center"
+                       TextColor="Gray"/>
+            </CollectionView.EmptyView>
+            
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Margin="0,5" Padding="15" Stroke="LightGray" StrokeThickness="1" BackgroundColor="LightGray">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10" />
+                        </Border.StrokeShape>
+                        <VerticalStackLayout>
+                            <Label Text="{Binding JobId, StringFormat='Opgave ID: {0}'}" FontAttributes="Bold" FontSize="16" TextColor="black"/>
+                            <Label Text="{Binding Task}" FontSize="14" TextColor="Black" />
+                            <Label Text="{Binding CustommerName}" TextColor="Black" FontSize="14"/>
+                            <Label Text="{Binding Registration}" TextColor="Black" FontSize="13" />
+                            <Label Text="{Binding Date, StringFormat='kl. {0:HH:mm}'}" TextColor="Black" FontSize="12" FontAttributes="Bold"/>
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid> 
+</ContentPage>

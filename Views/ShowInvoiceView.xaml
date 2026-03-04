@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Bilvaerksted.Views.SeFakturaView">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Se faktura" 
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                FontSize="30"/>
+
+            <SearchBar Placeholder="Søg efter JobId..."
+                Text="{Binding SearchText}"
+                SearchCommand="{Binding SearchCommand}"/>
+
+            <CollectionView ItemsSource="{Binding FilteredInvioces}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Style="{StaticResource CardFrameStyle}">
+                            <VerticalStackLayout>
+                                <Label FontSize="20" Text="{Binding JobId, StringFormat='Job ID: {0}'}"/>
+                                <Label Text="{Binding MechanicName, StringFormat='Mekaniker: {0}'}"/>
+                                <Label Text="{Binding Hours, StringFormat='Timer: {0}'}"/>
+                                <Label Text="Materialer:"/>
+                                <CollectionView ItemsSource="{Binding Materials}">
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Frame Style="{StaticResource CardFrameAccentStyle}">
+                                                <VerticalStackLayout >
+                                                    <HorizontalStackLayout>
+                                                        <Label Text="{Binding Name}"/>
+                                                        <Label Text="{Binding Price, StringFormat=' - Pris: {0} kr.'}"/>
+                                                    </HorizontalStackLayout>
+                                                </VerticalStackLayout>
+                                            </Frame>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
+                                <Label Text="{Binding TotalPrice, StringFormat='Total price: {0:F2} kr.'}"
+                                        Style="{StaticResource LabelStylePriceTotal}"/>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

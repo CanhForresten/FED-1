@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bilvaerksted.LabelStyle">
+
+    <Style x:Key="labelStyle" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="Title" />
+    </Style>
+
+    <Style x:Key="LabelStylePriceTotal" TargetType="Label">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light=#FF078607, Dark=#FF1FE21F}"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+    </Style>
+
+
+</ResourceDictionary>

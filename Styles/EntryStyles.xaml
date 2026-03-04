@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bilvaerksted.EntryStyles">
+
+        <Style x:Key="EntryStyle" TargetType="Entry">
+            <Setter Property="BackgroundColor" Value = 
+                 "{AppThemeBinding Light=#FFD6D6D6, Dark=#2A2A2A}" />
+
+            <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light=Gray, Dark=LightGray}" />
+            <!-- <Setter Property="Stroke" Value= "{AppThemeBinding Light = #ead25af2, Dark = #ead25af2}" /> -->
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalTextAlignment" Value="Center" />
+
+            <Setter Property="HeightRequest" Value="50" />
+            <Setter Property="WidthRequest" Value="300" />
+        </Style>
+
+</ResourceDictionary>

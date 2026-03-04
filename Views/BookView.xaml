@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Bilvaerksted.ViewModels"
+             xmlns:models="clr-namespace:Bilvaerksted.Models"
+             x:Class="Bilvaerksted.Views.BookView"
+             >
+             <!-- x:DataType="vm:BookViewModel" -->
+    <ScrollView>
+        <VerticalStackLayout
+                Spacing="10"
+                Padding="10">
+            <Label  
+                Text="Book en tid"
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="Tilføj ny opgave"
+                Style="{StaticResource labelStyle}"/> 
+            <DatePicker
+                Date ="{Binding Date}"
+                Style="{StaticResource DatePickerStyle}"
+                MinimumDate="{Binding Date}"/>
+            <Entry  
+                Text ="{Binding CustommerName}"
+                Placeholder="Indtast kundes fulde navn"
+                SemanticProperties.Hint="Kundens fulde navn"
+                Style="{StaticResource EntryStyle}"/>
+            <Entry  
+                Text = "{Binding CustommerAdress}"
+                Placeholder="Indtast kunde Adresse"
+                SemanticProperties.Hint="Kundes adresse Navn"
+                Style="{StaticResource EntryStyle}"/>
+            <Entry  
+                Text ="{Binding Make}"
+                Placeholder="Indtast bil mærke"
+                SemanticProperties.Hint="Mærket på kundens bil"
+                Style="{StaticResource EntryStyle}"/>     
+            <Entry 
+                Text ="{Binding Model}"
+                Placeholder="Indtast bil model"
+                SemanticProperties.Hint="Modellen af kundnes bil"
+                Style="{StaticResource EntryStyle}"/>  
+            <Entry 
+                Text ="{Binding Registration}"
+                Placeholder="Enter registration number"
+                Style="{StaticResource EntryStyle}"/>
+
+            <Entry 
+                Text ="{Binding Task}"
+                Placeholder="Enter task description"
+                Style="{StaticResource EntryStyle}"/> 
+            <Button
+                x:Name="AddJobButton"
+            
+                Text="Bekræft og gem"
+                Command ="{Binding AddJobCommand}"
+                Style="{StaticResource ButtonStyle}">
+            </Button>   
+        </VerticalStackLayout>  
+    </ScrollView>       
+
+    
+
+</ContentPage>

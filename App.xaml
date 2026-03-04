@@ -1,0 +1,20 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Bilvaerksted"
+             x:Class="Bilvaerksted.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/EntryStyles.xaml" />
+                <ResourceDictionary Source="/Styles/ButtonStyle.xaml" />
+                <ResourceDictionary Source="/Styles/DatePicker.xaml"/>
+                <ResourceDictionary Source="/Styles/LabelStyle.xaml"/>
+                <ResourceDictionary Source="/Resources/Styles/Colors.xaml"/>
+                <ResourceDictionary Source="/Styles/FrameStyles.xaml"/>
+                <!-- <ResourceDictionary Source="/Resources/Styles/Styles.xaml"/>  -->
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

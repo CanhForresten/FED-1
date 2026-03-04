@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bilvaerksted.DatePicker">
+
+    <Style x:Key="DatePickerStyle" TargetType="DatePicker">
+        <Setter Property="BackgroundColor"
+                Value="{AppThemeBinding Light=#F5F5F5, Dark=#2A2A2A}" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="HeightRequest" Value="100" />
+        <Setter Property="WidthRequest" Value="300" />
+    </Style>
+      
+
+</ResourceDictionary>
